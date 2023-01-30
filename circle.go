@@ -22,9 +22,10 @@ func (c Circle) area() float64 {
 }
 
 //create a method on type 'circle' named 'perimeter' that calculates and
-//returns the area of a circle.
+//returns the perimeter of a circle.
 
 func (c Circle) Perimeter() float64 {
+
 	const pi = 3.1415926
 
 	return 2 * pi * c.Radius
